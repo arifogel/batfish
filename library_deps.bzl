@@ -43,8 +43,8 @@ BATFISH_MAVEN_ARTIFACTS = [
     "org.apache.logging.log4j:log4j-api:2.13.3",
     "org.apache.logging.log4j:log4j-core:2.13.3",
     "org.apache.logging.log4j:log4j-slf4j-impl:2.13.3",
-    "org.apache.thrift:libthrift:0.14.0", # managed up: CVE-2020-13949
-    "org.apache.tomcat.embed:tomcat-embed-core:8.5.63", # managed up: CVE-2020-11996
+    "org.apache.thrift:libthrift:0.14.0",  # managed up: CVE-2020-13949
+    "org.apache.tomcat.embed:tomcat-embed-core:8.5.63",  # managed up: CVE-2020-11996
     "org.codehaus.jettison:jettison:1.4.0",
     "io.github.java-diff-utils:java-diff-utils:4.0",
     "org.glassfish.grizzly:grizzly-http-server:2.4.3",
@@ -69,4 +69,6 @@ BATFISH_MAVEN_ARTIFACTS = [
     "org.parboiled:parboiled-java:1.3.1",
     "org.skyscreamer:jsonassert:1.5.0",
     "org.xerial:sqlite-jdbc:3.25.2",
+    "org.slf4j:slf4j-api:1.7.28",  # for antlr4formatter
+    "org.slf4j:slf4j-simple:1.7.28",  # for antlr4formatter
 ]
