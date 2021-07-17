@@ -293,6 +293,8 @@ public final class PrefixTrieMultiMap<T> implements Serializable {
     traverseNodes(node -> consumer.accept(node._prefix, ImmutableSet.copyOf(node._elements)));
   }
 
+  public void traverseEntries
+
   /**
    * Perform a fold over the trie. The fold applies the same operation at each node of the trie,
    * bottom-up. The operation's inputs are the return values of the recursive calls on the subtries,
